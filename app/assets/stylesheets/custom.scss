@@ -1,0 +1,76 @@
+h1, h2 {
+  font-weight: 100;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  &:hover {
+    color: #fff;
+  }
+}
+
+.alert {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  margin-bottom: 0px;
+}
+
+// topページ
+.top-hero-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: image-url('bg-top.png');
+  background-color: #464646;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.top-hero-container {
+  padding-top: 220px;
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 60px;
+  }
+}
+
+//ユーザー登録ページ
+.form-control {
+  height: 45px;
+}
+
+.users-new-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #464646;
+  background: image-url('bg-top.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  .users-new-container {
+  padding-top: 110px;
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
