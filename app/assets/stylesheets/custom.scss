@@ -83,6 +83,25 @@ h1, h2 {
   }
 }
 
+// helpページ
+.pages-help-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: image-url('bg-top.png');
+  background-color: #464646;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  .pages-help-container {
+    padding-top: 220px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+}
+
 //ユーザー登録ページ
 .form-control {
   height: 45px;
