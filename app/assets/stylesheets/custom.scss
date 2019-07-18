@@ -136,6 +136,12 @@ h1, h2 {
       padding-left: 20px;
     }
     
+    .topic-comment {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    
+    
     img {
       margin-top: 10px;
       margin-bottom: 20px;
@@ -143,10 +149,28 @@ h1, h2 {
     }
     
     .topic-index-icon {
+      color: #fff;
       width: 35px;
       height: 30px;
-      margin-left: 20px;
+      margin-left: 10px;
     }
+    
+    .heart-icon {
+      margin-left: 10px;
+    }
+    
+    .heart-gray {
+      color: 	#696969;
+    }
+    
+    .heart-pink {
+      color: #DC143C;
+    }
+}
+
+// コメントページ
+.comments-new-wrapper {
+  padding-top: 120px;
 }
 
 

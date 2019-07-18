@@ -1,0 +1,25 @@
+<div class="comments-new-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4">
+        <% if @comment.errors.any? %>
+          <div class="form-error">
+            <ul>
+              <% @comment.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <%= form_for [@topic, @comment] do |f| %>
+          <div class="form-group">
+            <%= f.label :content, class: 'text-white' %>
+            <%= f.text_field :content, class: 'form-control' %>
+          </div>
+
+          <%= f.submit "comment", class: 'btn-block btn-black' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
